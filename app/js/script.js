@@ -201,46 +201,17 @@ $(function () {
         }
     });
 
-    var jcarousel = $('.jcarousel'),
-        manufacturers = $('.jcarousel.manufacturers');
-
-    manufacturers
-        .on('jcarousel:reload jcarousel:create', function () {
-            var carousel = $(this),
-                width = carousel.innerWidth();
-
-            if (width >= 1199) {
-                width = width / 5;
-            } else if (width >= 991) {
-                width = width / 4;
-            } else if (width >= 575) {
-                width = width / 3;
-            } else if (width >= 412) {
-                width = width / 2;
-            }
-
-            carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
-        })
-        .jcarousel({
-            wrap: 'circular',
-            animation: {
-                duration: 1000,
-                speed: 1000,
-                easing: 'linear',
-                complete: function () {
-                }
-            }
-        })
-        .jcarouselAutoscroll({
-            interval: 10000,
-            target: '+=1',
-            autostart: true,
-        });
+    var jcarousel = $('.jcarousel');
 
     jcarousel
         .on('jcarousel:reload jcarousel:create', function () {
             var carousel = $(this),
                 width = carousel.innerWidth();
+            console.log(width);
+
+            if (width >= 768) {
+                width = width / 2;
+            }
 
             carousel.jcarousel('items').css('width', Math.ceil(width) + 'px');
         })

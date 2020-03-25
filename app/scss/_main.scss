@@ -355,11 +355,11 @@
   }
 
   &-reviews {
-    background: url("../images/bg5.jpg") center center no-repeat;
-    background-size: cover;
+    //background: url("../images/bg5.jpg") center center no-repeat;
+    //background-size: cover;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 80px 0 15px 0;
-    margin-bottom: 30px;
+    padding: 15px 0;
+    margin-bottom: 0;
 
     @include md() {
       padding: 100px 0 0 0;
@@ -407,6 +407,30 @@
       }
     }
 
+    & .jcarousel-control-prev {
+      left: -20px;
+
+      & .carousel-control-prev-icon {
+        display: inline-block;
+        background-size: 100% 100%;
+        width: 20px;
+        height: 20px;
+        background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") no-repeat center center;
+      }
+    }
+
+    & .jcarousel-control-next {
+      right: -20px;
+
+      & .carousel-control-next-icon {
+        display: inline-block;
+        background-size: 100% 100%;
+        width: 20px;
+        height: 20px;
+        background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") no-repeat center center;
+      }
+    }
+
     @include xs() {
 
       & .jcarousel-control-prev {
@@ -416,6 +440,7 @@
       & .jcarousel-control-next {
         right: 0;
       }
+
     }
 
     &__item {
@@ -454,15 +479,15 @@
     &-description {
       display: block;
       height: 100px;
-      padding-right: 10%;
-      padding-left: 10%;
+      padding-right: 20px;
+      padding-left: 20px;
       overflow: hidden;
       margin-right: 1px;
       margin-left: 1px;
 
       @include md() {
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
         height: 195px;
       }
 
@@ -1264,7 +1289,7 @@
     margin-bottom: 5px;
 
     & .collapse.show {
-      border-bottom: 1px solid rgba(0,0,0,.125);
+      border-bottom: 1px solid rgba(0, 0, 0, .125);
     }
   }
 
@@ -1286,6 +1311,140 @@
     & .btn-link {
       color: $darkgrey;
       text-decoration: none;
+    }
+  }
+}
+
+.section-blog {
+
+  .blog-block {
+    padding: 0 8px;
+  }
+
+  .blog-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 1;
+    transition: opacity .3s;
+  }
+
+  & .title {
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+  }
+
+  .blog-date {
+    color: $white;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .blog-title {
+    color: $white;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+  }
+
+  .blog-description {
+    color: #d3d4d4;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 63px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .blog-arrow-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    margin: auto;
+    display: flex;
+    opacity: 0;
+    width: 66px;
+    height: 66px;
+    background: $yellow;
+    border-radius: 50%;
+    border: 4px solid $white;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: $white;
+    padding-left: 7px;
+    transition: opacity .3s;
+  }
+
+  .blog-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    background: $black;
+
+    &-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background: $black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: all .3s;
+    }
+
+    &:hover {
+      background: $black;
+      transition: all .3s;
+
+      &:after {
+        transition: opacity .3s;
+        opacity: 1;
+      }
+
+      .blog-img {
+        opacity: 0;
+        transition: opacity .3s;
+      }
+
+      & .blog-title {
+
+        &:hover {
+          color: $yellow;
+        }
+
+        &:after {
+          background: transparent;
+          transition: background-color .3s;
+        }
+      }
+
+      & .blog-item-bottom {
+        transition: all .3s;
+        opacity: 1;
+      }
+
+      .blog-arrow-block {
+        transition: opacity .3s;
+        opacity: 1;
+      }
     }
   }
 }

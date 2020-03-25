@@ -342,23 +342,33 @@ a.button-checkout {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
 
   @media (min-width: 1200px) {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @include md() {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  @include sm() {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   @include xs() {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   @media (min-width: 320px) and (max-width: 411px) {
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -369,7 +379,7 @@ a.button-checkout {
   border-radius: 50%;
   float: left;
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 10px;
 }
 
@@ -384,7 +394,7 @@ a.button-checkout {
   height: 30px;
   text-align: center;
   //background: #4E443C;
-  color: $white;
+  //color: $white;
   text-decoration: none;
   //text-shadow: 0 0 1px #000;
   -webkit-border-radius: 30px;
