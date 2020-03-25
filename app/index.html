@@ -1,0 +1,2289 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kingsmanatelier</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="author" content="slaus"/>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="text/html"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+
+    <meta name="msapplication-TileImage" content="img/favicons/favicon.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.png" sizes="32x32"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="images/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="images/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="images/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--endbuild-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"/>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/css3-mediaqueries.min.js"></script>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('main');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="mb-0 alert alert-light alert-dismissible close-alert text-center py-3 px-5 fade show" role="alert">
+    Мы используем файлы «cookie», чтобы запоминать сведения о пользователе и отображать
+    подходящую ему рекламу и другие материалы. <a href="">Наша политика в отношении обработки персональных данных</a>.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="wrapper">
+    <header class="header site-header site-header-fix">
+        <div class="topbar-outer header-fix">
+            <div class="container"></div>
+        </div>
+        <div class="site-header-main header-fix">
+            <div class="header-main">
+                <div class="header-middle">
+                    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                        <div class="d-flex flex-column flex-sm-row">
+                            <div class="header-left mx-0 my-3 my-lg-0">
+                                <div class="header-service">
+                                    <div class="header-service-block d-flex flex-column flex-sm-row justify-content-center align-items-center">
+                                        <div class="topbar-link pl-0">
+                                            <a href="#" id="language"
+                                               class="topbar-link-language text-uppercase animate mr-0 mr-sm-5"
+                                               data-placement="top" title="Language">Language</a>
+                                            <div class="topbar-link-wrapper">
+                                                <div class="header-menu-links">
+                                                    <ul id="menu-header-language" class="header-menu">
+                                                        <li class="menu-item">
+                                                            <a href="">English</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="">Русский</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="service-inner">
+                                            <span class="topservice-contact-mobile"><a href="tel:+380501234567"
+                                                                                       class="animate">+38 (050) 123-4567</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-logo d-block d-lg-none mb-5">
+                            <a href="index.html" title="" rel="home">
+                                <img alt="" src="images/logo-white.png" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <div class="header-cart headercart-block">
+                                <div class="cart togg">
+                                    <a id="cart-contents" class="shopping_cart tog"
+                                       title="My Cart">
+                                        <span class="cart-icon animate"></span>
+                                        <span class="label text-uppercase">My Cart</span>
+                                    </a>
+                                    <aside id="widget_cart-2" class="widget widget_shopping_cart tab_content animate">
+                                        <h3 class="widget-title">Shopping Cart</h3>
+                                        <div class="widget_shopping_cart_content">
+                                            <ul class="mini-cart cart_list product_list_widget ">
+                                                <li class="mini-cart-item mini_cart_item">
+                                                    <a href="" class="remove remove_from_cart_button">×</a>
+                                                    <a href="" class="animate">
+                                                        <img src="images/img-01.jpg"
+                                                             class="attachment_thumbnail size_thumbnail" alt="">Cras
+                                                        eget
+                                                        augue
+                                                    </a>
+                                                    <span class="quantity">1 × <span
+                                                            class="woocommerce-Price-amount amount">
+                                                    <span class="woocommerce-Price-currencySymbol">£</span>80.00</span>
+                                                </span>
+                                                </li>
+                                            </ul>
+                                            <p class="mini-cart__total total">
+                                                <strong>Total:</strong>
+                                                <span class="Price-amount amount"><span
+                                                        class="Price-currencySymbol">£</span>80.00</span>
+                                            </p>
+                                            <p class="mini-cart__buttons buttons">
+                                                <a href="" class="button wc-forward animate">Cart</a>
+                                                <a href=""
+                                                   class="button checkout button-checkout wc-forward animate">Checkout</a>
+                                            </p>
+                                        </div>
+                                    </aside>
+                                </div>
+                                <div id="go-to-cart" class="back-to-top effect-1">
+                                    <div class="hi-icon shopping_cart tog"
+                                         title="Shopping Cart">
+                                        <a href="#" class="d-block mt-3 w-100">
+                                            <span class="cart-icon animate w-100 h-100 m-0 pt-1 justify-content-center"></span>
+                                            <div class="cart-contents" title="Shopping Cart">
+                                                <div class="cart-price">
+                                                    <div class="cart-qty">1</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="topbar-link">
+                                <a href="#" id="account" class="topbar-link-toggle text-uppercase animate"
+                                   data-placement="top" title="Sign In">Sign In</a>
+                                <div class="topbar-link-wrapper">
+                                    <div class="header-menu-links">
+                                        <ul id="menu-header-top-links" class="header-menu">
+                                            <li class="menu-item">
+                                                <a href="">Personal area</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">History</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="">Checkout</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href=""> Sign Out</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="container">
+                        <nav id="site-navigation" class="navigation-bar main-navigation more">
+                            <div class="nav-mainmenu">
+								<span class="mainmenu-btn-wrapper" id="hamburger">
+									<span class="mainmenu-btn"></span>
+								</span>
+                                <div class="d-none flex-row justify-content-between">
+                                    <h3 class="menu-toggle">Catalogue</h3>
+                                </div>
+                            </div>
+                            <a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to
+                                content</a>
+                            <div class="mega-menu" id="mega-menu">
+                                <div class="menu-mainmenu-container">
+                                    <ul id="menu-mainmenu" class="mega">
+                                        <li class="menu-item current_page_item"><a href="index.html"
+                                                                                   aria-current="page">Home</a>
+                                        </li>
+                                        <li class="shop menu-item menu-item-has-children">
+                                            <a href="" class="dc-mega">Women<span class="dc-mega-icon"></span></a>
+                                            <div class="sub-container mega">
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href="category.html">handbags</a></li>
+                                                    <li class="menu-item"><a href="category.html">bags</a></li>
+                                                    <li class="menu-item"><a href="category.html">watchbands</a></li>
+                                                    <li class="menu-item"><a href="category.html">wallets</a></li>
+                                                    <li class="menu-item"><a href="category.html">folders</a></li>
+                                                    <li class="menu-item"><a href="category.html">suitcases</a></li>
+                                                    <li class="menu-item"><a href="category.html">belts</a></li>
+                                                </ul>
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href="404.html">handbags</a></li>
+                                                    <li class="menu-item"><a href="404.html">bags</a></li>
+                                                    <li class="menu-item"><a href="404.html">watchbands</a></li>
+                                                    <li class="menu-item"><a href="404.html">wallets</a></li>
+                                                    <li class="menu-item"><a href="404.html">folders</a></li>
+                                                    <li class="menu-item"><a href="404.html">suitcases</a></li>
+                                                    <li class="menu-item"><a href="404.html">belts</a></li>
+                                                </ul>
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href=""><img src="images/banner1.jpg"
+                                                                                          alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="shop menu-item menu-item-has-children">
+                                            <a href="" class="dc-mega">Men<span class="dc-mega-icon"></span></a>
+                                            <div class="sub-container mega">
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href="category.html">handbags</a></li>
+                                                    <li class="menu-item"><a href="category.html">bags</a></li>
+                                                    <li class="menu-item"><a href="category.html">watchbands</a></li>
+                                                    <li class="menu-item"><a href="category.html">wallets</a></li>
+                                                    <li class="menu-item"><a href="category.html">folders</a></li>
+                                                    <li class="menu-item"><a href="category.html">suitcases</a></li>
+                                                    <li class="menu-item"><a href="category.html">belts</a></li>
+                                                </ul>
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href="404.html">handbags</a></li>
+                                                    <li class="menu-item"><a href="404.html">bags</a></li>
+                                                    <li class="menu-item"><a href="404.html">watchbands</a></li>
+                                                    <li class="menu-item"><a href="404.html">wallets</a></li>
+                                                    <li class="menu-item"><a href="404.html">folders</a></li>
+                                                    <li class="menu-item"><a href="404.html">suitcases</a></li>
+                                                    <li class="menu-item"><a href="404.html">belts</a></li>
+                                                </ul>
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href=""><img src="images/banner.jpg"
+                                                                                          alt=""></a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item d-none d-lg-block">
+                                            <div class="header-logo">
+                                                <a href="index.html" title="" rel="home">
+                                                    <img alt="" src="images/logo.png">
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item"><a href="404.html">Sale Off</a></li>
+                                        <li class="menu-item">
+                                            <a href="" class="dc-mega">News<span class="dc-mega-icon"></span></a>
+                                            <div class="sub-container">
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item"><a href="blog.html">Purchase and return</a>
+                                                    </li>
+                                                    <li class="menu-item"><a href="blog.html">Payment and delivery</a>
+                                                    </li>
+                                                    <li class="menu-item"><a href="blog.html">Collaboration</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item"><a href="">Contacts</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </nav>
+                        <!-- #site-navigation -->
+                    </div>
+                </div>
+                <!-- End header_Bottom -->
+            </div>
+            <!-- End header-main -->
+        </div>
+    </header>
+    <main class="main">
+        <section class="section container-fluid carousel-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators justify-content-end">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 carousel-img" src="./images/bg1.jpg" alt="First slide">
+                        <!--                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">-->
+                        <!--                            <h2 class="carousel-title text-white">UP TO 50% OFF</h2>-->
+                        <!--                            <p class="carousel-description text-white">Lorem ipsum dolor sit amet, consectetur-->
+                        <!--                                adipisicing elit.-->
+                        <!--                                Aliquid, hic.</p>-->
+                        <!--                            <a href="" class="hi-btn animate animate-1 mt-4 mt-lg-5">SHOW SALE OFFERS</a>-->
+                        <!--                        </div>-->
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="./images/bg2.jpg" alt="Second slide">
+                        <!--                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">-->
+                        <!--                            <h2 class="carousel-title text-white">UP TO 50% OFF</h2>-->
+                        <!--                            <p class="carousel-description text-white">Lorem ipsum dolor sit amet, consectetur-->
+                        <!--                                adipisicing elit.-->
+                        <!--                                Aliquid, hic.</p>-->
+                        <!--                            <a href="" class="hi-btn animate animate-1 mt-4 mt-lg-5">SHOW SALE OFFERS</a>-->
+                        <!--                        </div>-->
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="./images/bg3.jpg" alt="Third slide">
+                        <!--                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">-->
+                        <!--                            <h5 class="carousel-title text-white">UP TO 50% OFF</h5>-->
+                        <!--                            <p class="carousel-description text-white">Lorem ipsum dolor sit amet, consectetur-->
+                        <!--                                adipisicing elit.-->
+                        <!--                                Aliquid, hic.</p>-->
+                        <!--                            <a href="" class="hi-btn animate animate-1 mt-4 mt-lg-5">SHOW SALE OFFERS</a>-->
+                        <!--                        </div>-->
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="section section-welcome container mb-3">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h2 class="title color-grey text-uppercase">LEATHER WALLETS</h2>
+                    <h3 class="sub-title color-grey">All of our goods are crafted by a single craftsmen.</h3>
+                </div>
+            </div>
+        </section>
+        <!--        <section class="section container-fluid ban-block mb-2 mb-5-sm">-->
+        <!--            <div class="row">-->
+        <!--                <div class="col-12 col-md-4 p-1 text-center">-->
+        <!--                    <a href="" class="img-block">-->
+        <!--                        <img src="images/banners1.jpg" class="img-fluid" alt="">-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--                <div class="col-12 col-md-4 p-1 text-center">-->
+        <!--                    <a href="" class="img-block">-->
+        <!--                        <img src="images/banners.jpg" class="img-fluid" alt="">-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--                <div class="col-12 col-md-4 p-1 text-center">-->
+        <!--                    <a href="" class="img-block">-->
+        <!--                        <img src="images/banners3.jpg" class="img-fluid" alt="">-->
+        <!--                    </a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </section>-->
+        <section class="section container tabs-block">
+            <div class="row">
+                <div class="col-12 text-center mb-0">
+                    <ul class="nav nav-tabs">
+                        <li><a class="active" data-toggle="tab" href="#new">New</a></li>
+                        <li><a data-toggle="tab" href="#popular">Popular</a></li>
+                        <li><a data-toggle="tab" href="#special">Specials</a></li>
+                        <li><a data-toggle="tab" href="#action">Actions</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="new" class="tab-pane fade in active show">
+                            <h3 class="tab-content-title">New</h3>
+                            <div class="row">
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="popular" class="row tab-pane fade">
+                            <h3 class="tab-content-title">Popular</h3>
+                            <div class="row">
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="special" class="row tab-pane fade">
+                            <h3 class="tab-content-title">Specials</h3>
+                            <div class="row">
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="action" class="row tab-pane fade">
+                            <h3 class="tab-content-title">Actions</h3>
+                            <div class="row">
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                    <span class="onsale">-6%</span>
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                                </del>
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-12 col-sm-6 col-lg-3">
+                                    <div class="container-inner">
+                                        <span class="product-loading"></span>
+                                        <div class="product-block-inner">
+                                            <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                            <div class="image-block">
+                                                <a href="product.html" class="LoopProduct-link loop-product__link"></a>
+                                                <a href="product.html" class="zoom-icon">
+                                                    <img src="images/img-01.jpg"
+                                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                                    <img src="images/img-02.jpg"
+                                                         class="secondary-image attachment-shop-catalog img-fluid"
+                                                         alt="">
+                                                </a>
+                                                <div class="product-button-hover">
+                                                    <a href="#" class="button view-button" data-toggle="modal"
+                                                       data-target="#exampleModalCenter">Быстрый просмотр</a>
+                                                </div>
+                                            </div>
+                                            <div class="product-detail-wrapper">
+                                                <a href="product.html" title="Tic small Alessi dolore labore">
+                                                    <h3 class="product-name">Tic small Alessi dolore labore</h3>
+                                                </a>
+                                                <span class="price">
+                                                <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                                </ins>
+                                            </span>
+                                                <div class="button-group effect-2">
+                                                    <div class="product-button-outer hi-icon">
+                                                        <a href="#" class="button add_to_cart_button" rel="nofollow">В
+                                                            корзину</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 d-flex justify-content-center my-5">
+                    <a href="" class="hi-btn animate animate-1">snow sale offers</a>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-2 mb-5">
+            <div class="border-box"></div>
+        </section>
+        <section class="section container mb-3">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h2 class="title color-grey text-uppercase">Category</h2>
+                    <h3 class="sub-title color-grey">All of our goods are crafted by a single craftsmen.</h3>
+                </div>
+            </div>
+        </section>
+        <section class="section section-category container mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 category-block mb-3">
+                    <a href="category.html" class="category-item">
+                        <div class="category-item-bottom">
+                            <h3 class="category-title">Women</h3>
+                            <p class="category-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="category-arrow-block"><i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 category-block mb-3">
+                    <a href="category.html" class="category-item">
+                        <div class="category-item-bottom">
+                            <h3 class="category-title">Men</h3>
+                            <p class="category-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="category-arrow-block"><i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 category-block mb-3">
+                    <a href="category.html" class="category-item">
+                        <div class="category-item-bottom">
+                            <h3 class="category-title">Sale Off</h3>
+                            <p class="category-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="category-arrow-block"><i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 category-block mb-3">
+                    <a href="category.html" class="category-item">
+                        <div class="category-item-bottom">
+                            <h3 class="category-title">Women</h3>
+                            <p class="category-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="category-arrow-block"><i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 category-block mb-3">
+                    <a href="category.html" class="category-item">
+                        <div class="category-item-bottom">
+                            <h3 class="category-title">Men</h3>
+                            <p class="category-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="category-arrow-block"><i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 category-block mb-3">
+                    <a href="category.html" class="category-item">
+                        <div class="category-item-bottom">
+                            <h3 class="category-title">Sale Off</h3>
+                            <p class="category-description">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="category-arrow-block"><i class="fa fa-angle-right"></i></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section container-fluid carousel-container pt-3 d-none d-lg-block">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators justify-content-end justify-content-xl-start">
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 carousel-img" src="./images/banners4.jpg" alt="First slide">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">
+                            <h4 class="carousel-subtitle text-uppercase">TOTAL SALE for summer days</h4>
+                            <h2 class="carousel-title text-white">UP TO 50% OFF</h2>
+                            <p class="carousel-description text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non
+                                ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet, tempor eu lacus.
+                            </p>
+                            <a href="" class="hi-btn animate animate-1 mt-4 mt-lg-5">SHOW SALE OFFERS</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="./images/banners4.jpg" alt="Second slide">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">
+                            <h4 class="carousel-subtitle text-uppercase">TOTAL SALE for summer days</h4>
+                            <h2 class="carousel-title text-white">UP TO 50% OFF</h2>
+                            <p class="carousel-description text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non
+                                ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet, tempor eu lacus.
+                            </p>
+                            <a href="" class="hi-btn animate animate-1 mt-4 mt-lg-5">SHOW SALE OFFERS</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="./images/banners4.jpg" alt="Third slide">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center d-md-block">
+                            <h4 class="carousel-subtitle text-uppercase">TOTAL SALE for summer days</h4>
+                            <h2 class="carousel-title text-white">UP TO 50% OFF</h2>
+                            <p class="carousel-description text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non
+                                ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet, tempor eu lacus.
+                            </p>
+                            <a href="" class="hi-btn animate animate-1 mt-4 mt-lg-5">SHOW SALE OFFERS</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="section container mb-3">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h2 class="title color-grey text-uppercase">FEATURED PRODUCT</h2>
+                    <h3 class="sub-title color-grey">All of our goods are crafted by a single craftsmen.</h3>
+                </div>
+            </div>
+        </section>
+        <section class="section container visualizer-block">
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-6 d-flex justify-content-center align-items-center">
+                    <img src="images/img-03.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 d-flex justify-content-center align-items-center mb-3">
+                    <p class="visualizer-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam animi commodi
+                        dignissimos ducimus ea facilis impedit laudantium maxime neque nostrum odio optio, possimus quas
+                        quisquam rerum sit? Architecto corporis explicabo nulla quidem sit totam voluptas, voluptates?
+                        Aliquid architecto consectetur hic mollitia, nemo nesciunt odit perferendis tempora vero
+                        voluptas. Amet, dolore doloribus error, fugit hic in ipsam labore laudantium porro quam quia
+                        repellendus tenetur! Accusantium aperiam, corporis ex fuga illo iste, libero maxime
+                        necessitatibus officia quis repellat saepe similique sint, tempora voluptas. Aliquam architecto
+                        at dolor dolores, eligendi error impedit inventore ipsa laboriosam libero, molestias numquam
+                        odit omnis suscipit veniam vero, voluptas!
+                    </p>
+                </div>
+                <div class="w-100 d-flex justify-content-center my-5">
+                    <a href="" class="hi-btn animate animate-1">Visualizer</a>
+                </div>
+            </div>
+        </section>
+        <section class="section container-fluid section-reviews mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="jcarousel-wrapper">
+                            <div class="jcarousel swiper-container mt-2">
+                                <ul class="swiper-wrapper">
+                                    <li class="section-reviews__item swiper-slide d-flex align-items-center justify-content-center flex-column mb-4 animate">
+                                        <div class="section-reviews__img">
+                                            <img src="images/testi.png" alt="" class="animate-1">
+                                        </div>
+                                        <h3><i class="fa fa-quote-left text-white mt-2"></i></h3>
+                                        <p class="text-white font-weight-bold">Максим Н.</p>
+                                        <p class="section-reviews-description text-center text-white animate mb-5">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi cumque
+                                            dolorem enim error, excepturi, exercitationem facere fuga harum nemo odio
+                                            optio tempore totam voluptate. Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Ab amet aut earum eos modi mollitia pariatur quisquam
+                                            quod. Eum, in? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab,
+                                            accusantium amet dolor dolore eius ex expedita modi molestiae
+                                            necessitatibus, non numquam omnis pariatur, perferendis quo recusandae
+                                            reiciendis voluptas voluptates voluptatum. Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit. Alias nisi nobis quibusdam quos vitae. Amet
+                                            debitis facere neque sapiente sunt. Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </li>
+                                    <li class="section-reviews__item swiper-slide d-flex align-items-center justify-content-center flex-column mb-4 animate">
+                                        <div class="section-reviews__img">
+                                            <img src="images/testi.png" alt="" class="animate-1">
+                                        </div>
+                                        <h3><i class="fa fa-quote-left text-white mt-2"></i></h3>
+                                        <p class="text-white font-weight-bold">Максим Н.</p>
+                                        <p class="section-reviews-description text-center text-white animate mb-5">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi cumque
+                                            dolorem enim error, excepturi, exercitationem facere fuga harum nemo odio
+                                            optio tempore totam voluptate.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="jcarousel-control-prev carousel-control-prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#" class="jcarousel-control-next carousel-control-next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                            <p class="jcarousel-pagination d-none"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section container section-info my-5">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-5">
+                    <h2 class="info-title color-grey text-uppercase">SHIPPING & RETURN POLICY</h2>
+                    <div class="info-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur facilis illum
+                            odio
+                            recusandae voluptatem? Aperiam culpa dolorum ducimus ipsum maxime minus, provident sed.
+                            Eaque
+                            ratione sit veniam? Aut explicabo molestias quaerat quo reiciendis repellat vel voluptates.
+                            At
+                            doloremque dolores enim exercitationem hic necessitatibus nesciunt reiciendis, repellendus
+                            soluta tenetur?
+                        </p>
+                        <p>
+                            Asperiores dolores incidunt inventore laboriosam magni molestiae omnis
+                            perferendis, quaerat quia voluptatem! Ab ad adipisci alias aliquam, aliquid animi,
+                            architecto
+                            consectetur deleniti dolorem dolores dolorum eaque error et explicabo fugit id in incidunt
+                            libero molestias nam nostrum praesentium quia quod quos recusandae reprehenderit sed
+                            voluptatem.
+                            Amet, sunt voluptate?
+                        </p>
+                    </div>
+                    <div><a href="" class="info-link effect-3">Read More</a></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="info-title color-grey text-uppercase">why choose our shop</h2>
+                    <div id="accordion" class="accordion info-description">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                        Lorem ipsum dolor sit amet.
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, amet aperiam,
+                                    cumque dolorem doloribus est exercitationem facere fugit illum in non, obcaecati
+                                    optio porro reprehenderit sequi sunt tenetur ut voluptate?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                        Lorem ipsum dolor sit amet.
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur cupiditate
+                                    dolore earum expedita ipsam laudantium nisi numquam odit placeat possimus qui rerum
+                                    sapiente tenetur, voluptatum! Nostrum officiis perferendis praesentium!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                        Lorem ipsum dolor sit amet.
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem corporis debitis
+                                    distinctio est iste laudantium molestias nisi nobis non odit, quaerat saepe vitae
+                                    voluptatum?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--begin footer#colophon-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 footer__item">
+                    <div class="footer__item-menu">
+                        <a href="index.html" class="d-block text-center">
+                            <img src="images/logo-white.png" alt="" class="logo img-fluid">
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ipsam magni quis velit.
+                            Adipisci commodi doloribus fugit iure, vitae voluptate!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse, illo maiores numquam
+                            quaerat voluptates!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 footer__item">
+                    <h4 class="footer__item-title text-center text-sm-left animate">top rated products</h4>
+                    <div class="footer__item-menu">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-03.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-03.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-03.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-03.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 footer__item">
+                    <h4 class="footer__item-title text-center text-sm-left animate">best selling</h4>
+                    <div class="footer__item-menu">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="menu-item">
+                                <div class="img-block">
+                                    <img src="images/img-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-block">
+                                    <a href="">Lorem ipsum dolor</a>
+                                    <span class="price">
+                                        <del><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                            <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 footer__item">
+                    <h4 class="footer__item-title text-center text-sm-left animate">CONTACT INFO</h4>
+                    <div class="footer__item-menu">
+                        <ul class="menu menu-address">
+                            <li class="menu-item flex-column">
+                                <p class="text-block">
+                                    <b>Store one</b>
+                                </p>
+                                <p class="text-block mb-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, placeat.
+                                </p>
+                            </li>
+                            <li class="menu-item flex-column">
+                                <p class="text-block">
+                                    <b>Store two</b>
+                                </p>
+                                <p class="text-block mb-0">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, placeat.
+                                </p>
+                            </li>
+                            <li class="menu-item flex-column">
+                                <p class="text-block">
+                                    <b>Phone numbers</b>
+                                </p>
+                                <p class="mb-0 d-flex justify-content-center justify-content-sm-start flex-md-column">
+                                    <a href="" class="mr-3 pb-0">+38 095 999-9999</a>
+                                    <a href="" class="mr-3 pb-0">+38 063 999-9999</a>
+                                </p>
+                            </li>
+                            <li class="menu-item flex-column">
+                                <p class="text-block">
+                                    <b>Email address</b>
+                                </p>
+                                <p class="mb-0 d-flex justify-content-center justify-content-sm-start flex-md-column">
+                                    <a href="" class="mr-3 pb-0">info@site.com</a>
+                                    <a href="" class="mr-3 pb-0">info@site22.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-12 d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-4 px-0">
+                    <div class="footer__item-copyright text-center text-md-left text-uppercase mb-4 mb-md-0">
+                        <a href="" target="_blank">Copyright © 2020</a> | <a href="">Конфиденциальность</a>
+                    </div>
+                    <div class="footer__item-social mb-5 mb-md-0">
+                        <a href="" class="fb m-1 effect-2">
+                            <div class="hi-icon"><i class="fa fa-facebook-square"></i></div>
+                        </a>
+                        <a href="" class="vk m-1 effect-2">
+                            <div class="hi-icon"><i class="fa fa-vk"></i></div>
+                        </a>
+                        <a href="" class="yt m-1 effect-2">
+                            <div class="hi-icon"><i class="fa fa-youtube"></i></div>
+                        </a>
+                        <a href="" class="in m-1 effect-2">
+                            <div class="hi-icon"><i class="fa fa-instagram"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer#colophon-->
+    <div id="back-to-top" class="back-to-top effect-1" title="Наверх">
+        <div class="hi-icon"><i class="fa fa-chevron-up"></i></div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close font-weight-light" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container modal-body">
+                <div class="row">
+                    <div class="product col-12 col-lg-5 col-xl-6 mb-0">
+                        <div class="container-inner h-100 d-flex justify-content-center align-items-center">
+                            <span class="product-loading"></span>
+                            <div class="product-block-inner">
+                                <div class="image-block">
+                                    <img src="images/img-01.jpg"
+                                         class="attachment_thumbnail size_thumbnail img-fluid" alt="">
+                                    <span class="onsale">-6%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col-12 col-lg-7 col-xl-6 mb-0">
+                        <div class="container-inner">
+                            <span class="product-loading"></span>
+                            <div class="product-block-inner">
+                                <div class="product-detail-wrapper">
+                                    <h1 class="product-name">Tic small Alessi dolore labore</h1>
+                                    <div class="price">
+                                        <del><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>85.00</span>
+                                        </del>
+                                        <ins><span class="Price-amount amount">
+                                                    <span class="Price-currencySymbol">£</span>80.00</span>
+                                        </ins>
+                                    </div>
+                                    <div class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam aliquid
+                                        architecto cumque delectus dicta eveniet, expedita harum in iste laudantium
+                                        libero maxime, nisi sequi similique sint temporibus tenetur veniam voluptate
+                                        voluptatem. Dolore illo numquam obcaecati sequi sunt. Accusamus delectus tempore
+                                        ullam velit. Corporis, est, neque. Accusamus beatae delectus eaque, expedita
+                                        laudantium nam nihil, officiis qui sit tempore tenetur vero? Delectus, nostrum
+                                        omnis! Ab dolore eligendi laboriosam maxime nam nihil optio porro reprehenderit
+                                        voluptates voluptatibus. Consectetur enim odio reprehenderit sit ut! Asperiores
+                                        distinctio dolorum nulla, odit officia provident quidem voluptate! Amet
+                                        blanditiis dolorum ea minus nesciunt nulla possimus rem saepe? Blanditiis
+                                        consequuntur eligendi error illo ipsam iusto modi nesciunt temporibus tenetur
+                                        voluptas?
+                                    </div>
+                                    <div class="widget_shopping_cart_content">
+                                        <p class="mini-cart__buttons buttons mt-3 d-flex flex-row">
+                                            <a href="" class="hi-btn animate animate-1 mr-1"
+                                               title="Добавить в корзину">В корзину</a>
+                                            <a href="" class="hi-btn one animate animate-1 mr-1"
+                                               title="Купить в один клик">Купить быстро</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<script src="js/swiper.min.js"></script>
+<!--build:js js/main.min.js -->
+<script src="js/script.js"></script>
+<!-- endbuild -->
+<script>
+    $(document).ready(function () {
+        var swiper = new Swiper('.swiper-container');
+        $('.carousel').carousel({interval: 10000});
+        $('[data-tooltip="tooltip"]').tooltip();
+    });
+</script>
+</body>
+
+</html>
